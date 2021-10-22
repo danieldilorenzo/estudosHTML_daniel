@@ -1,0 +1,52 @@
+
+O que é FrontEnd
+
+É a parte da "frente" que faz a comunicação com o backend e devolve a resposta
+
+Como é feita essa comunicação? Através do HTTP / URL / Troca de dados
+
+
+
+
+#Configurações do ambiente
+
+No VSCoce
+
+- Material Icon
+- Live Server
+- Omni Theme
+- Prettier - code formater
+
+Ctrl Shift P - Open Settings (JSON)
+
+Colar
+
+{
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "workbench.colorTheme": "Omni",
+    "workbench.iconTheme": "material-icon-theme",
+		"editor.bracketPairColorization.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "explorer.compactFolders": false,
+
+    // formatter
+    "prettier.tabWidth": 2,
+    "prettier.semi": false, 
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none", 
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "auto",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+}
